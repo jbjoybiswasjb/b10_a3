@@ -36,6 +36,20 @@
                         colors: {
                             white: '#fff',
                             black: '#000',
+
+                            common_big_heading: 'rgb(33, 33, 33)',
+
+                            common_text_1: 'rgb(115, 115, 115)',
+                            common_text_2: 'rgb(73, 73, 73)',
+
+                            dark: 'rgb(28, 28, 28)',
+                            green: 'rgb(171, 239, 95)',
+
+                            border: 'rgb(233, 233, 233)',
+
+                            header_bg: 'rgba(255, 255, 255, 0)',
+
+                            header_gradient_1: '#F4F4F4',
                         },
 
                         // Font family.
@@ -56,7 +70,62 @@
                                                     Header.
             ===================================================================================
         -->
-        <header></header>
+        <header class="py-14 bg-gradient-to-b from-header_gradient_1 to-white">
+
+            <div class="w-11/12 lg:w-4/5 mx-auto">
+
+                <div class="flex gap-14 items-center">
+                    <a href="#">
+                        <div class="flex gap-2 items-center">
+                            <span class="text-lg bg-green w-8 h-8 rounded-full flex justify-center items-center p-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                    class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                </svg>
+                            </span>
+                            <strong class="font-extrabold text-4xl">Rinterio</strong>
+                        </div>
+                    </a>
+                    <div>
+                        <nav>
+                            <ul class="flex gap-6 justify-between text-common_text_1 text-base font-normal">
+                                <li class="font-extrabold text-common_text_2"><a href="#">Home</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="#">Blogs</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <span class="p-3 border border-border rounded-full bg-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                            </svg>
+                        </span>
+                        <span class="p-3 border border-border rounded-full bg-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+                        </span>
+                        <button class="flex gap-2 px-5 py-3 rounded-[2rem] bg-green items-center text-dark font-extrabold text-xl">Book Consult
+                            <span class="text-lg bg-dark w-8 h-8 rounded-full flex justify-center items-center p-2 text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                    class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </header>
 
 
 
